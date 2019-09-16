@@ -1,0 +1,53 @@
+.maindiv{
+    margin-left: 16%;
+    border:gray 1px solid;
+    padding: 30px;
+    width: 970px;
+}
+.person:hover{
+    background-color:#2e2e2e;
+    color:white;
+    line-height: '40px';
+    margin: auto;
+    margin-left:1px;
+}
+.person{
+    background-color:#858585;
+    color:white;
+    line-height: '40px';
+    margin: auto;
+    width:100%;
+    margin-left:1px;
+
+}
+.input-group{
+    width: 72%;
+    margin-left:2%; 
+}
+.searchBtn{
+    width: 200px;
+    
+}
+#header{
+    background-color:#2e2e2e;
+    color:white;
+    padding: 3px;
+    margin-left:1px;
+}
+.clearButton{
+    margin-top: -100px;
+    margin-left:690px;
+    width: 200px;
+
+}
+.username{
+    margin-left: -208px
+}
+.results{
+    margin-left: 2%;
+    color: #2e2e2e;
+    font-size: 98%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    margin-top:-100px;
+}
