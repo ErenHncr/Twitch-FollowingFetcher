@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `REACT_APP_ID=Your_Twitch_App_Id REACT_APP_SECRET=Your_Twitch_Secret REACT_APP_REDIRECT_URI=Your_Twitch_RedirectUri  npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
