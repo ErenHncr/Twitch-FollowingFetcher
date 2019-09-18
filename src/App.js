@@ -85,7 +85,7 @@ class App extends Component {
           </div>
         </form>
         <button type='reset' className='btn btn-danger clearButton' onClick={this.clearFields}>Clear Results</button>
-        {followingLength==='-1'?null:(<label className='results'>Results for {username} : {followingLength} following found!</label>)}
+        {followingLength==='-1'?null:(<label className='results'>Results for {username} : {followingLength} followings found!</label>)}
         <Persons/>
       </div>
     </UserProvider>
