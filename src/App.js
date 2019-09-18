@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Persons from './components/persons'
 import { UserProvider } from './context'
 import '../src/App.css'
-//import Axios from 'axios'
 import Auth from './twitchAPI/auth'
 
 class App extends Component {
@@ -58,13 +57,11 @@ class App extends Component {
       
     }
   }
-
   changeUsername=(e)=>{
     this.setState({
       username:e.target.value,
       text:e.target.value
     })
-    
   }
   clearFields=(e)=>{
     this.setState({
@@ -74,7 +71,6 @@ class App extends Component {
       followingLength:'-1'
     })
   }
-
   render() {
     const {text,followingLength,username} = this.state;
     return (
@@ -92,7 +88,6 @@ class App extends Component {
         {followingLength==='-1'?null:(<label className='results'>Results for {username} : {followingLength} following found!</label>)}
         <Persons/>
       </div>
-
     </UserProvider>
     )
   }
