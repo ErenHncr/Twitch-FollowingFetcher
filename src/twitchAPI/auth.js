@@ -84,7 +84,7 @@ export default class Auth{
     async getFollowings(){
         
         const fetch2 = require("node-fetch");
-        const clientID="gd462v929lwmhe48w802kdawou2v0f";   
+        const clientID="your_client_ID";   
         let allFollowings;
         await fetch2(`https://api.twitch.tv/helix/users/follows?from_id=${this.userInfos.id}`,{
             headers:{
